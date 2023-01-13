@@ -9,12 +9,19 @@ export default {
     src: 'https://github.com/jtiagosantos.png',
     alt: 'Tiago Santos',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
 
 export const WithFallback: StoryObj<AvatarProps> = {
   args: {
-    src: undefined,
+    src: '',
   },
 }

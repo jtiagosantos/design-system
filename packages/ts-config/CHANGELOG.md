@@ -1,4 +1,4 @@
-# @jtiago_santos/ts-config
+# @tiago_santos/ts-config
 
 ## 2.0.0
 

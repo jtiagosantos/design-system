@@ -1,4 +1,4 @@
-# @jtiago_santos/react
+# @tiago_santos/react
 
 ## 2.0.0
 

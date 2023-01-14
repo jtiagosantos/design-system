@@ -1,4 +1,4 @@
-# @jtiago_santos/eslint-config
+# @tiago_santos/eslint-config
 
 ## 2.0.0
 

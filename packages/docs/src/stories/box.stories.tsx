@@ -1,4 +1,4 @@
-import { Box, Text, BoxProps } from '@jtiago_santos/react'
+import { Box, Text, BoxProps } from '@tiago_santos/react'
 
 import type { StoryObj, Meta } from '@storybook/react'
 

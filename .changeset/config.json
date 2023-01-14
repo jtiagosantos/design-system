@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "master",
   "updateInternalDependencies": "patch",
-  "ignore": ["@jtiago_santos/docs"]
+  "ignore": ["@tiago_santos/docs"]
 }

@@ -1,4 +1,4 @@
-import { Box, Text, Checkbox, CheckboxProps } from '@jtiago_santos/react'
+import { Box, Text, Checkbox, CheckboxProps } from '@tiago_santos/react'
 
 import type { StoryObj, Meta } from '@storybook/react'
 

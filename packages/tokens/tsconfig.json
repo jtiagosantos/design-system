@@ -1,4 +1,4 @@
 {
-  "extends": "@jtiago_santos/ts-config/base.json",
+  "extends": "@tiago_santos/ts-config/base.json",
   "include": ["src"]
 }

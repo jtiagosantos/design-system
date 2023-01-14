@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@jtiago_santos/ts-config",
-  "version": "2.0.0",
+  "name": "@tiago_santos/ts-config",
+  "version": "1.0.0",
   "license": "MIT"
 }

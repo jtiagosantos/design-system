@@ -1,4 +1,4 @@
-import { colors } from '@jtiago_santos/tokens'
+import { colors } from '@tiago_santos/tokens'
 import { getContrast } from 'polished'
 
 export const ColorsGrid = () => {

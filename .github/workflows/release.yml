@@ -27,8 +27,12 @@ jobs:
       - run: npm ci
 
       - name: Publish to NPM
-        uses: mmarchini-oss/npm-otp-publish@v0
+        id: changesets
+        uses: changesets/action@v1
         with:
-          npm_token: ${{ secrets.NPM_TOKEN }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_actor: ${{ github.actor }}
+          publish: npm run release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          TURBO_TEAM: jtiagosantos

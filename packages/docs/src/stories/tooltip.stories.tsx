@@ -7,9 +7,15 @@ export default {
   component: Tooltip,
   args: {
     text: 'Lorem ipsum dollar set...',
-    children: <Text>Any Text</Text>,
+    children: <Text>Add to calendar</Text>,
   },
-  argTypes: {},
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
   decorators: [
     (Story) => (
       <div

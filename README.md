@@ -28,11 +28,6 @@
 
 <br>
 
-<h1 align="center">
-  <img src=".github/assets/cover.png" width="800px" />
-</h1>
-
-
 ## 🎨 Components
 
 - [x] Data display
